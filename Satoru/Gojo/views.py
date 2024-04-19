@@ -1,17 +1,19 @@
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from .models import *
 
+menu = ["Analyse", "Story", "Arts"]
 
-def mainpage(response):
-    return HttpResponse('...')
+def mainpage(request):
+    #posts = MainPage.objects.all()
+    #return render(request, 'Gojo/mainpage.html', {'posts' = posts})
 
+def analyse(request):
+    return render(request, 'Gojo/analyse.html')
 
-def analyse(response):
-    return HttpResponse('...')
+def story(request):
+    return render(request, 'Gojo/story.html')
 
-def story(response):
-    return HttpResponse('...')
-
-def arts(response):
-    return HttpResponse('...')
+def arts(request):
+    return render(request, 'Gojo/arts.html')
 
