@@ -1,16 +1,38 @@
-body{
-    background-color: #5799b5;
+#top-panel{
+    overflow: hidden;
+    position:fixed;
+    text-align:center;
+    font-family: Arial, Gotham
+    color: black;
+    padding: 14px 16px;
+    font-size: 17px;
+    z-index:10;
+    text-decoration: none;
 }
+
+
+.menu{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#top-panel ul{
+
+}
+
 
 #logo{
     color:black;
     text-decoration: none;
-
-
-}
-
-.top-panel{
-    background-color: white;
-    background-size: cover;
+    display: block;
+    float: left;
+    padding-left:30px;
+    padding-top: 7px;
+    font-size: 40px;
 
 }
+
+
+
+

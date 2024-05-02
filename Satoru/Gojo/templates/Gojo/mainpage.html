@@ -9,19 +9,19 @@
 </head>
 <body>
 
-    <div class="top-panel">
-        <h1 id="logo"><a href="{% url 'home' %}">The honored one</a></h1>
+    <div id="top-panel">
+        <a id="logo" href="{% url 'home' %}">The Honored One</a>
         <ul>
-            <li><a href="{% url 'story' %}">История </a></li>
-            <li><a href="{% url 'analyse' %}>">Анализ</a></li>
-            <li><a href="Gojo/abilities.html">Способности</a></li>
-            <li><a href="Gojo/arts.html">Арты</a></li>
+            <li><a class ="menu" href="{% url 'story' %}">История</a></li>
+            <li><a class="menu" href="{% url 'analyse' %}">Анализ</a></li>
+            <li><a class="menu" href="{% url 'abilities' %}">Способности</a></li>
+            <li><a class="menu" href="{% url 'arts'%}">Арты</a></li>
         </ul>
     </div>
 
-    <div class="top-medium panel">
+    <div id="medium">
         <p id="main_phrase"> Между небом и землей, лишь я один достойный </p>
-        <img src="{% static 'Gojo/images/mainpage1.jpeg' %}" alt="Основное изображение">
+        <img src="{% static 'Gojo/images/mainpage2.jpeg' %}" alt="Основное изображение">
         <p>Персонаж манги "Магическая битва", текст текст текст текст текст текст текст текст текст текст текст текст</p>
 
     </div>
