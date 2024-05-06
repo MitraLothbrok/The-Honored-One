@@ -8,6 +8,15 @@
     <link rel="stylesheet" type="text/css" href="{% static 'Gojo/css/cast.css' %}" />
 </head>
 <body>
+    <div id="top-panel">
+        <a id="logo" href="{% url 'home' %}"><h1>The Honored One</h1></a>
+        <ul>
+            <li><a class='menu' href="{% url 'story' %}">История</a></li>
+            <li><a class='menu' href="{% url 'analyse' %}">Анализ</a></li>
+            <li><a class='menu' href="{% url 'abilities' %}">Способности</a></li>
+            <li><a class='menu' href="{% url 'arts'%}">Арты</a></li>
+        </ul>
+    </div>
     <h1> Способности</h1>
 </body>
 </html>

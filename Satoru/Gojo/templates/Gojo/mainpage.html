@@ -10,21 +10,29 @@
 <body>
 
     <div id="top-panel">
-        <a id="logo" href="{% url 'home' %}">The Honored One</a>
+        <a id="logo" href="{% url 'home' %}"><h1>The Honored One</h1></a>
         <ul>
-            <li><a class ="menu" href="{% url 'story' %}">История</a></li>
-            <li><a class="menu" href="{% url 'analyse' %}">Анализ</a></li>
-            <li><a class="menu" href="{% url 'abilities' %}">Способности</a></li>
-            <li><a class="menu" href="{% url 'arts'%}">Арты</a></li>
+            <li><a class='menu' href="{% url 'story' %}">История</a></li>
+            <li><a class='menu' href="{% url 'analyse' %}">Анализ</a></li>
+            <li><a class='menu' href="{% url 'abilities' %}">Способности</a></li>
+            <li><a class='menu' href="{% url 'arts'%}">Арты</a></li>
         </ul>
     </div>
 
-    <div id="medium">
-        <p id="main_phrase"> Между небом и землей, лишь я один достойный </p>
-        <img src="{% static 'Gojo/images/mainpage2.jpeg' %}" alt="Основное изображение">
-        <p>Персонаж манги "Магическая битва", текст текст текст текст текст текст текст текст текст текст текст текст</p>
+    <div id="header"></div>
+
+    <div id="quote">
+        <p> <<Меджу небом и землей, лишь я один достойный>></p>
+    </div>
+
+    <div id="about">
+        <img src="{% static 'Gojo/images/mainpage2.jpeg'%}"/>
+        <h5> Сатору Годжо </h5>
+        <p> Персонаж то то то то и тд и тд пупупупупуп</p>
+
 
     </div>
+
 
 </body>
 </html>
