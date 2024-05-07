@@ -78,25 +78,24 @@
 }
 
 #about{
-    background-color: white;
     height: 90vh;
     width: 100%;
+    background-color: #cad8ed;
 }
 
 #about table{
     width:100%;
     text-align: justify;
-    height: 90vh;
 }
 
 #about .img{
     background-image: url('/static/Gojo/images/&.jpeg');
     background-size: cover;
-    width:50vh;
 }
 
 #about td {
-    height: 80vh;
+    width: 50vh;
+    height: 90vh;
     background-color: #cad8ed;
 }
 
@@ -147,7 +146,7 @@
 #buddha td {
     width:50vh;
     height: 80vh;
-    background-color:#2b6fd6;
+    background-color:#5e6ee6;
 }
 
 #buddha .text{
@@ -175,7 +174,53 @@
 }
 
 
+#third_panel{
+    background-color: white;
+    height: 90vh;
+    width: 100%;
+    margin-top:300px;
+}
 
+#third_panel table{
+    width:100%;
+    text-align: justify;
+    height: 90vh;
+}
+
+#third_panel .img{
+    background-image: url('/static/Gojo/images/mainpage2.jpeg');
+    background-size: cover;
+}
+
+#third_panel td {
+    width:50vh;
+    height: 80vh;
+    background-color:#d6bcce;
+}
+
+#third_panel .text{
+    position: relative;
+}
+
+#third_panel h1{
+    font-size: 80px;
+    font-weight:100;
+    white-space:pre-line;
+    word-wrap: break-word;
+    position: absolute;
+    top:70px;
+    left: 50px;
+}
+
+#third_panel p{
+    font-size:50px;
+    color:black;
+    white-space:pre-line;
+    word-wrap: break-word;
+    position: absolute;
+    top:200px;
+    left: 54px;
+}
 
 
 
