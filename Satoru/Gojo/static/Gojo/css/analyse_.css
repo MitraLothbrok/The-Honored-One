@@ -8,6 +8,9 @@
     height: 6vh;
     margin-bottom:5px;
     position:fixed;
+    top: 0px;
+    overflow: hidden;
+    z-index: 10;
 
 }
 
@@ -18,9 +21,6 @@
     padding: 10px 15px 10px 15px;
     display: block; /* блочный элемент */
     float: left;
-
-
-
 }
 
 #top-panel ul{
@@ -31,14 +31,11 @@
     text-align: right;
     padding: 25px 35px 25px 35px;
 
-
 }
 
 #top-panel li{
     display: inline; /* строка */
-    padding: 0px 20px 0px 20px;
-
-
+    padding: 0px 30px 0px 30px;
 
 }
 

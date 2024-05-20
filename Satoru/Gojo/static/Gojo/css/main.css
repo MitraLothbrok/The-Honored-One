@@ -18,7 +18,7 @@
     text-decoration: none;
     font-size: 30px;
     padding: 10px 15px 10px 15px;
-    display: block; /* блочный элемент */
+    display: block;
     float: left;
 }
 
@@ -80,7 +80,7 @@
 #about{
     height: 90vh;
     width: 100%;
-    background-color: #cad8ed;
+    background-color: #c4c6d7;
 }
 
 #about table{
@@ -96,7 +96,7 @@
 #about td {
     width: 50vh;
     height: 90vh;
-    background-color: #cad8ed;
+    background-color: #7793b5;
 }
 
 #about .text{
@@ -114,7 +114,7 @@
     left: 50px;
 }
 
-#about p{
+#about .text .first{
     font-size:50px;
     color:black;
     white-space:pre-line;
@@ -122,8 +122,30 @@
     position: absolute;
     top:200px;
     left: 54px;
+    right:40px;
 }
 
+#about .text .second{
+    font-size:50px;
+    color:black;
+    white-space:pre-line;
+    word-wrap: break-word;
+    position: absolute;
+    top:500px;
+    left: 54px;
+    right:40px;
+}
+
+#about .text .third{
+    font-size:50px;
+    color:black;
+    white-space:pre-line;
+    word-wrap: break-word;
+    position: absolute;
+    top:800px;
+    left: 54px;
+    right:40px;
+}
 
 #buddha{
     background-color: white;
@@ -146,7 +168,7 @@
 #buddha td {
     width:50vh;
     height: 80vh;
-    background-color:#5e6ee6;
+    background-color:#47598c;
 }
 
 #buddha .text{
@@ -161,11 +183,12 @@
     position: absolute;
     top:70px;
     left: 50px;
+    color: white;
 }
 
 #buddha p{
     font-size:50px;
-    color:black;
+    color:white;
     white-space:pre-line;
     word-wrap: break-word;
     position: absolute;
@@ -195,7 +218,7 @@
 #third_panel td {
     width:50vh;
     height: 80vh;
-    background-color:#d6bcce;
+    background-color:#dfdfda;
 }
 
 #third_panel .text{
